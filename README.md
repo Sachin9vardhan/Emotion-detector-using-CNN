@@ -44,7 +44,7 @@ This project builds and trains a CNN to classify seven facial emotions and uses 
 | 5           | Surprise   |
 | 6           | Neutral    |
 
-> Ensure your dataset folder is organized by class (one folder per emotion).
+> Ensure your dataset folder is organized.
 
 ---
 
@@ -80,11 +80,6 @@ tensorflow>=2.6
 opencv-python
 numpy
 matplotlib
-```
-
-Or install individually:
-```bash
-pip install tensorflow opencv-python numpy matplotlib
 ```
 
 ---
@@ -199,7 +194,6 @@ plt.title('Loss')
 plt.legend()
 plt.show()
 ```
-> Save those plots as PNGs and link them in the README for presentation.
 
 ---
 
@@ -245,4 +239,4 @@ GitHub: Sachin9vardhan
 ---
 
 ## License
-This project licensed
+This project is licensed
